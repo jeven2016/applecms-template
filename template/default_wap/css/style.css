@@ -23,9 +23,9 @@ a:hover{text-decoration:none;color:#1989da; font-size:14px;}
 input{font-family:"Microsoft Yahei",Simsun,sans-serif;font-size: 14px;}
 /*手机导航菜单内页*/
 .g_header2 .s_l{left:0;height:100%;position:absolute;top:0}
-.g_header2 {background-color:rgba(0,129,255,.8);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);height:3rem;line-height:3rem;width:100%;position:fixed;left:0;right:0;top:0;z-index:101;font-size:1.2rem;text-align:center; color:#fff;}
+.g_header2 {background-color:rgba(0,129,255,.8);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);height:3rem;line-height:3rem;width:100%;position:relative;left:0;right:0;top:0;z-index:101;font-size:1.2rem;text-align:center; color:#fff;}
 .g_header2 .s_r{position:absolute;top:18%;right:3%}
-.g_header2 .s_c{position:absolute;top:18%;right:15%}
+.g_header2 .s_c{position:absolute;top:18%;right:10%}
 
 .g_header2 .s_bt {width:2rem;text-align:center;font-size:0}
 .g_header2 a{ color:#fff; font-size:1.2rem;position:absolute;top:0;left:0;line-height:3rem; display:block;white-space:nowrap;padding:0 4% 0 4%;}
@@ -78,7 +78,7 @@ input{font-family:"Microsoft Yahei",Simsun,sans-serif;font-size: 14px;}
 .g_nav .s_call,.g_nav li {width:44%;margin:0 2% 4%;display:inline-block;-webkit-transform:scale(1.1) translateY(-24px);transform:scale(1.1) translateY(-24px);opacity:0;-webkit-transition:opacity .35s ease-out,-webkit-transform .35s ease-out;transition:opacity .35s ease-out,-webkit-transform .35s ease-out;transition:opacity .35s ease-out,transform .35s ease-out;transition:opacity .35s ease-out,transform .35s ease-out,-webkit-transform .35s ease-out}
 .g_nav .s_call {margin:8% 4% 0;line-height:56px;border-radius:56px;border:1px solid #fff;color:#fff}
 #navSwitch {display:none}
-#navSwitch:checked+.g_nav {visibility:visible;opacity:1;height:40%;-webkit-transition:height .35s ease-in;transition:height .35s ease-in}
+#navSwitch:checked+.g_nav {visibility:visible;opacity:1;height:100%;-webkit-transition:height .35s ease-in;transition:height .35s ease-in}
 #navSwitch:checked+.g_nav .s_call,#navSwitch:checked+.g_nav li {-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);opacity:1}
 #navSwitch:checked+.g_nav li:nth-child(1) {-webkit-transition-delay:.3s;transition-delay:.3s}
 #navSwitch:checked+.g_nav li:nth-child(2) {-webkit-transition-delay:.3s;transition-delay:.3s}
@@ -427,7 +427,7 @@ span.new{width:22px;height:12px;position:absolute;background:url(../images/new.g
 #subnav strong.movie{color:#06c}
 #logo{padding:18px 60px 0 0;float:left;width:220px;height:90px}
 #searchbar{width:470px;margin-top:30px;float:left}
-.ui-search{width:100%;height:2.5rem;overflow:hidden; margin-top:5%;margin-bottom:2%;}
+.ui-search{width:100%;height:2.5rem;overflow:hidden; margin-top:2%;margin-bottom:2%;}
 .search-input{width:80%;float:left;height:2.5rem;line-height:2.5rem;font-size:1rem;overflow:hidden;color:#c3c3c3;text-indent:9px;background-color:#fff; border:none;border-radius: 0.17rem 0 0 0.17rem;}
 .search-button{width:20%;float:right;height:2.5rem;line-height:2.5rem;color:#FFF;font-size:1.2rem;overflow:hidden;cursor:pointer;border:0;background:#1481EB;border-radius:0 0.17rem 0.17rem 0;}
 .acInput{width:364px}
@@ -626,7 +626,7 @@ span.new{width:22px;height:12px;position:absolute;background:url(../images/new.g
 .selectList li .con p a.cur{color:#3097FD;}
 .selectList li .con p a:last-child{padding-right:0;}
 	
-.filter-focus{margin-top:45px;padding:0 2%;overflow:hidden; background:#fff}
+.filter-focus{padding:0 2%;overflow:hidden; background:#fff}
 .filter-focus .ui-title{height:60px;line-height:60px;border-bottom:1px dotted #3097FD; text-align:center;}
 .filter-focus .ui-title h3{color:#3097FD;font-size:16px}
 .filter-focus .ui-title span{float:right}
@@ -642,7 +642,7 @@ span.new{width:22px;height:12px;position:absolute;background:url(../images/new.g
 .filter-list2 a:hover{color:#fff;background-color:#3097FD}
 .filter-list2 a.current,.filter-list2 a.current:hover{color:#fff;background-color:#3097FD;cursor:default}
 /*频道搜索页 影视部分*/
-#list-focus{overflow:hidden; background:#fff;}
+#list-focus{overflow:hidden; background:#fff; margin-top:3rem;}
 #list-focus .qire-box{width:1000px;min-height:1000px;margin:0 auto;}
 #list-focus #find-focus{width:998px;border:0 none;height:auto;min-height:inherit}
 #list-focus .qire-bar{width:256px;float:right;border:0 none;margin-left:-1px;border-left:1px solid #eee}
@@ -873,7 +873,7 @@ a.ui-button {display:block;height:3rem;line-height:3rem; margin:1rem 0 2rem;bord
 .letter-ranking .ui-ranking{width:207px;padding:0 13px 5px 13px;border-bottom:1px solid #eee}
 
 /*影片详情页*/
-#detail-box{width:100%;overflow:hidden;position:relative; padding:0 2%; background:#fff}
+#detail-box{width:100%;overflow:hidden;position:relative; padding:0 2%; background:#fff; margin-top:2.5rem;}
 .detail-title{}
 .detail-title h1{height:1.5rem;line-height:1.5rem;font-size:1.2rem;color:#333;}
 .detail-sect{width:350px;margin-top:5px;padding:0 0 0 20px;overflow:hidden;float:left}
