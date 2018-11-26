@@ -626,7 +626,7 @@ span.new{width:22px;height:12px;position:absolute;background:url(../images/new.g
 .selectList li .con p a.cur{color:#3097FD;}
 .selectList li .con p a:last-child{padding-right:0;}
 	
-.filter-focus{margin-top:3rem;padding:0 2%;overflow:hidden; background:#fff}
+.filter-focus{margin-top:45px;padding:0 2%;overflow:hidden; background:#fff}
 .filter-focus .ui-title{height:60px;line-height:60px;border-bottom:1px dotted #3097FD; text-align:center;}
 .filter-focus .ui-title h3{color:#3097FD;font-size:16px}
 .filter-focus .ui-title span{float:right}
