@@ -48,9 +48,9 @@ input{font-family:"Microsoft Yahei",Simsun,sans-serif;font-size: 14px;}
 .g_banner .s_in {position:absolute;left:8%;right:8%;bottom:8%}
 .g_header .s_l,.g_nav {left:0}
 .g_h1 {font-size:1.2em;color:#333;padding:4% 0}
-.g_header {background-color:rgba(0,129,255,.8);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
+.g_header {background-color:rgb(0,129,255);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
 .g_nav {background-color:rgba(0,50,90,.9);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
-.g_header {height:3rem;width:100%;line-height:1.2rem;position:relative;left:0;right:0;top:0;z-index:101}
+.g_header {box-shadow: 0 2px 3px 0 rgba(106, 110, 116, 0.57);height:3rem;width:100%;line-height:1.2rem;position:relative;left:0;right:0;top:0;z-index:101}
 .g_header .s_l{height:100%;position:absolute;top:0}
 .g_header .s_r{position:absolute;top:18%;right:3%}
 .g_header .s_c{position:absolute;top:18%;right:10%}
@@ -204,13 +204,13 @@ transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
 
 .box .box_con{ width:100%; overflow:hidden;}
 .box .box_con .img-list {}
-.box .box_con .img-list li {float:left;text-align:left;width:32%;padding-bottom: 3%; overflow:hidden;vertical-align:top;}
+.box .box_con .img-list li { box-shadow: 0 5px 8px 0 rgba(106, 110, 116, 0.57);float:left;text-align:left;width:32%;padding-bottom: 3%; overflow:hidden;vertical-align:top;}
 .box .box_con .img-list li:nth-child(3n+2) {margin: 0 2%;}
 .box .box_con .img-list li a{display:block;overflow:hidden;position:relative;background:#fff;}
-.box .box_con .img-list li a h2{color: #0000ffd1!important;overflow:hidden; line-height:1.5rem;height:1.5rem;padding-top: 0.28rem; color:#333;font-size:0.85rem;}
+.box .box_con .img-list li a h2{color: rgba(42, 42, 204, 0.82) !important;overflow:hidden; line-height:1.5rem;height:1.5rem;padding-top: 0.28rem; color:#333;font-size:0.85rem;}
 .box .box_con .img-list li a p{white-space:nowrap;display:block;overflow:hidden;line-height:1rem; height:1rem;font-size:0.6rem;color:#999;}
 
-.box .box_con .img-list li span{position:relative;display:block;box-shadow: 0 5px 8px 0 rgba(106, 110, 116, 0.57);}
+.box .box_con .img-list li span{position:relative;display:block;}
 .box .box_con .img-list li span:before {content: '';position: relative;display: block;width: 100%;padding-bottom: 130%;}
 .box .box_con .img-list li a img{width:100%;background:url(../images/lazyload.gif) no-repeat scroll center center transparent;height: 100%;position: absolute;top: 0;left: 0;}
 .box .box_con .img-list li a i{ position:absolute; left:0; top:0;background:url(../images/flt.png); line-height:1rem;  padding:0.15rem 0.35rem; z-index:9; font-size:0.6rem; color:#FFF;font-style:normal; text-align:left;}
