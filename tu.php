@@ -1,6 +1,6 @@
 <?php
 header("Content-Type:image/jpeg");
-@$picurl = "http://".$_GET['tu'];
+@$picurl = "http://image-service:5806/show?tu=".$_GET['tu'];
 echo getnepianImg($picurl);
 function getnepianImg($url){
 	$ch=curl_init();
